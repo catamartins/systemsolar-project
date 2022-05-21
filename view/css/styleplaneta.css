@@ -1,0 +1,57 @@
+*{
+    color: white;
+    font-family: 'Montserrat';
+    top: 0;
+    left: 0;
+}
+
+body{
+    background-color: #07070a;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    margin-top: 200px;
+
+    max-width: 80%;
+
+    align-items: center;
+    text-align: center;
+}
+
+main h3{
+    margin-bottom: 40px;
+    font-size: 8vh;
+    letter-spacing: 5px;
+}
+
+main p{
+    font-size: 2.5vh;
+}
+
+main h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 5vh;
+}
+
+.btn-galeria {
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+    color: black;
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    font-size: 15px;
+    transition: all .5s ease;
+   }
+   
+.btn-galeria:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 100%);
+    box-shadow: white 0px 7px 29px 0px;
+   }
